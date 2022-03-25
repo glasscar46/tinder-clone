@@ -6,8 +6,8 @@ import AuthModal from "../Components/AuthModal";
 const Home = () => {
    
     const authToken = false;
-    const [showModal, setShowModal] = useState(true);
-    const [isSignUp, setIsSignUp] = useState(true)
+    const [showModal, setShowModal] = useState(false);
+    const [isSignUp, setIsSignUp] = useState(false)
     const HandleOnclick = (e) => {
         setShowModal(true)
         setIsSignUp(true)

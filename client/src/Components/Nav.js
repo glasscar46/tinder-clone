@@ -1,6 +1,5 @@
 import ColorLogo from "../images/Tinder_logo_dark.png";
 import logo from "../images/Tinder_logo_white.png";
-import AuthModal from "./AuthModal";
 
 
 const Nav = ({ minimal, setShowModal, showModal, setIsSignUp}) => {
