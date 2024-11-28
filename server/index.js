@@ -7,7 +7,7 @@ const PORT = 5000;
 const app = express();
 
 const uri =
-  "mongodb+srv://glasscar46:101099@cluster0.f6kem.mongodb.net/Cluster0?retryWrites=true&w=majority";
+  "mongo_uri";
 
 const { MongoClient } = require("mongodb");
 
